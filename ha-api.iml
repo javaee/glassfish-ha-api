@@ -16,7 +16,7 @@
     <orderEntry type="library" name="Maven: com.sun.enterprise:auto-depends:1.0.36" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.hk2.external:asm-all-repackaged:1.0.36" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish:bean-validator:3.0-JBoss-4.0.2_03" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
   </component>
 </module>
 
