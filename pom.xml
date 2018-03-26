@@ -50,8 +50,7 @@
     </parent>
 
     <groupId>org.glassfish.ha</groupId>
-    <artifactId>ha-api</artifactId>
-    <version>3.1.10</version>
+    <version>3.1.10-SNAPSHOT</version>
     <packaging>hk2-jar</packaging>
     <name>GlassFish High Availability APIs and SPI</name>
 
@@ -59,7 +58,6 @@
       <connection>scm:git:https://github.com/javaee/glassfish-ha-api.git</connection>
       <developerConnection>scm:git:git@github.com:javaee/glassfish-ha-api.git</developerConnection>
       <url>https://github.com/javaee/glassfish-ha-api</url>
-      <tag>3.1.10</tag>
   </scm>
 
     <developers>
