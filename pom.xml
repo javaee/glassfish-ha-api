@@ -56,10 +56,10 @@
     <name>GlassFish High Availability APIs and SPI</name>
 
     <scm>
-      <connection>scm:git:https://github.com/javaee/ha-api.git</connection>
-      <developerConnection>scm:git:git@github.com:javaee/ha-api.git</developerConnection>
-      <url>https://github.com/javaee/ha-api</url>
-    </scm>
+      <connection>scm:git:https://github.com/javaee/glassfish-ha-api.git</connection>
+      <developerConnection>scm:git:git@github.com:javaee/glassfish-ha-api.git</developerConnection>
+      <url>https://github.com/javaee/glassfish-ha-api</url>
+  </scm>
 
     <developers>
         <developer>
