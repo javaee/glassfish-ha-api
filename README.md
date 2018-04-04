@@ -5,8 +5,8 @@ This is the repository for glassfish-ha-api.
 ## Build
 
 Prerequisites:
-JDK 1.6
-Maven 3.2.5
+JDK 1.7
+Maven 3.0.5
 
 Use the following command:
 ```bash
