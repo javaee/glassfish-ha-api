@@ -59,7 +59,6 @@
       <connection>scm:git:https://github.com/javaee/glassfish-ha-api.git</connection>
       <developerConnection>scm:git:git@github.com:javaee/glassfish-ha-api.git</developerConnection>
       <url>https://github.com/javaee/glassfish-ha-api</url>
-    <tag>HEAD</tag>
   </scm>
 
     <developers>
@@ -85,7 +84,7 @@
     </issueManagement>
 
     <properties>
-        <hk2.version>1.6.14</hk2.version>
+        <hk2.version>2.0.5</hk2.version>
     </properties>
 
     <build>
@@ -98,19 +97,7 @@
             <plugin>
                 <groupId>org.apache.felix</groupId>
                 <artifactId>maven-bundle-plugin</artifactId>
-                <version>2.5.3</version>
-                <dependencies>
-                    <dependency>
-                        <groupId>biz.aQute.bnd</groupId>
-                        <artifactId>bndlib</artifactId>
-                        <version>2.4.0</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.felix</groupId>
-                <artifactId>maven-bundle-plugin</artifactId>
-               <version>3.2.0</version>
+		<version>3.5.0</version>
                 <configuration>
                     <!-- By default, we don't export anything.
                     -->
@@ -127,7 +114,7 @@
                         <!-- Read all the configuration from osgi.bundle file, if it exists.
                              See Felix-699 to find out why we use ${basedir}.
                         -->
-                        <_include>-${basedir}/osgi.bundle</_include>
+		         <_include>-${basedir}/osgi.bundle</_include>
                     </instructions>
                 </configuration>
                 <executions>
